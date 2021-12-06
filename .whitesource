@@ -11,5 +11,23 @@
   },
   "issueSettings": {
     "minSeverityLevel": "LOW"
-  }
+  },
+  "hostRules": [
+    {   
+        "matchHost": "http://18.210.7.236:8081/repository/nuget-hosted/",
+        "hostType": "nuget",
+        "userName": "admin",
+        "encrypted": {
+           "password": "wcBMA90FtVIhcznKAQf9EuxHt3JXyRIh5lF05Pgtzg44qR+UNyxnDG3NfqcT/HiCWRqvtmhkLjdGU+0KEEtwTAitYLWLmm5hJ+fq6jnIQCqtqiDVRp7JBjXsj60+3C1JQ/gCxh/iLHNwRRyRP1jhKDYqYEnB8mtqDL7lWxlVb2qbxbbfMh10CPiNBVSpmWhLYmcUK1ZOFRokr05ygIsdC9CmPXY1Ijb+ociUK/nfa6TpEC06/ydKaUf3V6LCW1qL4Izgge6ewyMHIHTqPs/i/NVKhWONBXr/ppOpBwwYkr2pvkoMCwNsRwDUihNgVBZK62YgftSCL2jJCYNrEJtS/pmUV6rJYfTtpE8T2eKiTNJjASsHUAUukT554qYfLPWqPd0hzV7xzM9RKsyoKLEwajldIKAgWyiQjrJ2IPvhcKCx1EFeIsq/qV6WKjU+19uqgLN3A2UaSx3hgizJjJpmwUZ80hq/TyXfpbvrDK1bubXBbNTW"
+        }
+    },
+    {
+        "matchHost": "https://wsdev.jfrog.io/artifactory/api/nuget/sami-nuget",
+        "hostType": "nuget",
+        "userName": "sami",
+        "encrypted": {
+          "token": "wcBMA90FtVIhcznKAQf/ckYrHafrS2jHTF0wm21u6atr8YOtX+GXjcqUUGWvX3rJA/CswFLH2rEUI/xogD0LrxGfM43Yoq3R+B857SspH+ArvDfYZ6JicPwR5X4zoa4kqT3RobFKQJiDF1euSx0kE2wLcEymrY8ePiVVGnzi9Jfxi4ZpL3nQmi9N4MONXYGni3GzYqeUv3t2ENMFz0B++otIYlnvx5WG03+a2W0oClvs0BE1MmdIAfpslS9XaykaaGhLkCdp4N0rizCPhwpndqpl0UHb9TWHeXhpAOOh04aLxjXFWYZXlPbL7uxJOUUUuejtwqzZIdPFn99l1bZG5x6hlRp3K3gGKaBwV8R1q9LCPwFIp8gbzd8L2hcdYuFTWIqgpDTnjQDY0Bm1TADAZc89jwOri/RPNUAa9qGy0gZUxNkQ04kLajQmpDlF357zYtTb9JNqBZoSJNAwzgAV78q3GiHSVXo8bLHDfqKmzpCgwg/VuLcm1CJDJCldcYxc1kJEFMxeVuvqC9cssiT4Ti0oQcKd31CqK5HnIKkS7HHMBbblFazuX6AIQJzsMF3AUNSvFYlQV2Y3fGcnlPe+gNF1nb3Y3aV59JQHqcvUp575+m3gswuHbAhy6HEU3HRBEb0q/DQG5ndPMSXHjC+JAw4TCxL49QQKV5MPL1671qxOWWdCmfr85R/zt3VnJ92yJXkIWFZri/SOlEJIlF1GH3aDvNZfaGhACiIXzL/FZalp70E4/rEsOj1dd9MZvUQHcP8Vwi+Dn+PJIz2mHyrAhuAbudXpcgwkt0kQayZnQhmn8ozj8qgg/w+fCUEIp1eVENKu/LrNuqW/699R2QlKcltexSwXRp+PsQBSM5LbUHs8rUGqi3zSu9E4Xr37zHD01OSuf8DYsUrndQP2inDmAUWBRrme/vkTgT8KgjRCm2P8oLOKwBFCuPnd/Ow4sVIKIzQnRiUePZnQnsHoNpO3pspbDrhfenlEzNeaK4VWnDwBhcvAkfG2cIowjlHzW2sfdW1f19hIHK63ALDG5d9ttKONuwsqrtcq+hcLwgWw1QIz3yr9cCjj5T7vup/yxr2LlbMjLJHE6A5Ms2iQ82l9i77qW7iv5fYuAVID0RRYKJbWigiBcGmIWYq0u6SscXDRyBHz6wDXV4bm8byfRCiixGxDGoAPaix2kzQxIyVkZFcMlRG4942Lv8rEPUHMqArbjvDDnqTng8lQfe7TZmcOvfd024tBsWRR2Hv5RXZmV8pxoo76JcBfM78onFrKo1mH82kZI2iDVPdOc0tN9+EtJQJ6iJY/QfBqVqX9yyHd+b4sXvaiHm2Sm2jbQI0pAWExekul4wGyX5nKjycxXFmc5rkWiQNFKcxkGEQ1nyjUuWm9"
+        }
+    }
+  ]
 }
