@@ -8,7 +8,7 @@
   <ItemGroup>
     <PackageReference Include="System.Text.Encodings.Web" Version="4.0.0" />
     <PackageReference Include="sami_sample" Version="1.0.2" />
-		<PackageReference Include="ConsoleApp1ss" Version="1.0.0" />
+    <PackageReference Include="ConsoleApp1ss" Version="1.0.0" />
   </ItemGroup>
 
 </Project>
